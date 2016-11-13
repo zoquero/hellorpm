@@ -1,0 +1,10 @@
+# RPM test
+It's just a "hello world" for RPM
+
+# Quick tutorial for building RPM on Ubuntu:
+
+$ apt-get install rpm
+$ mkdir -p ~/rpmbuild/SOURCES ~/rpmbuild/SPECS
+$ cp ....tar.gz ~/rpmbuild/SOURCES 
+$ rpmbuild -ba hellorpm.spec 
+
