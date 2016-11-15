@@ -8,3 +8,11 @@ $ mkdir -p ~/rpmbuild/SOURCES ~/rpmbuild/SPECS
 $ cp ....tar.gz ~/rpmbuild/SOURCES 
 $ rpmbuild -ba hellorpm.spec 
 
+
+# Info for Ubuntu / Debian
+
+https://en.opensuse.org/openSUSE:Build_Service_Debian_builds
+
+https://forums.opensuse.org/showthread.php/479656-How-do-I-build-Ubuntu-Debian-packages-(excluded)
+
+https://translate.google.com/translate?hl=en&sl=zh-CN&tl=en&u=https%3A%2F%2Fzh.opensuse.org%2FPackaging_for_Debian_and_Ubuntu
