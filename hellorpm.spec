@@ -28,6 +28,8 @@ Name: hellorpm
 # %if 0%{?fedora_version} >= 21 || 0%{?centos_version} >= 700 || 0%{?rhel_version} == 700
 # %if 0%{?rhel_version} == 600 || 0%{?centos_version} == 600
 
+%define base_version 1.0
+
 Version:       	%{base_version}
 Release:        0
 License:        GPL-2.0+
