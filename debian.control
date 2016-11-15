@@ -1,0 +1,13 @@
+Source: hellorpm
+Section: sectionName
+Priority: optional
+Maintainer: Angel Galindo Muñoz <zoquero@gmail.com>
+Build-Depends: debhelper (>= 4.1.16)
+
+Package: hellorpm
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: A hello world for packaging
+ This is just a simple hello wold for packaging,
+ a test to be able to build more complex packages.
+ It's source can be found here: https://github.com/zoquero/hellorpm#s-f- Description)
